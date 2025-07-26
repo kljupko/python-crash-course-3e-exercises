@@ -1,0 +1,3 @@
+# Write down any ideas you may have for games, data, web apps, ...
+
+# OK, it's in my personal notes.
