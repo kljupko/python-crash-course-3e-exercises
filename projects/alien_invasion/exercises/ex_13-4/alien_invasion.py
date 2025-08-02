@@ -1,13 +1,12 @@
 import sys
-from time import sleep
 
 import pygame
 
 from settings import Settings
-from game_stats import GameStats
 from ship import Ship
 from bullet import Bullet
 from alien import Alien
+from raindrop import Raindrop
 
 class AlienInvasion:
     """Overall class to manage game assets and behavior."""
@@ -24,28 +23,22 @@ class AlienInvasion:
                 self.settings.screen_height))
         pygame.display.set_caption("Alien Invasion")
 
-        # Create an instatce to store game statistics.
-        self.stats = GameStats(self)
-
         self.ship = Ship(self)
         self.bullets = pygame.sprite.Group()
         self.aliens = pygame.sprite.Group()
+        self.raindrops = pygame.sprite.Group()
 
         self._create_fleet()
-
-        # Start Alien Invasion in an active state.
-        self.game_active = True
+        self._create_raindrops()
 
     def run_game(self):
         """Start the main loop of the game."""
         while True:
             self._check_events()
-
-            if self.game_active:
-                self.ship.update()
-                self._update_bullets()
-                self._update_aliens()
-
+            self.ship.update()
+            self._update_raindrops()
+            self._update_bullets()
+            self._update_aliens()
             self._update_screen()
             self.clock.tick(60)
 
@@ -88,61 +81,15 @@ class AlienInvasion:
         # Update bullet positions.
         self.bullets.update()
 
-        # Get rid of bullest that have disappeared.
+        # Get rid of bullets that have disappeared.
         for bullet in self.bullets.copy():
             if bullet.rect.bottom <= 0:
                self.bullets.remove(bullet)
-
-        self._check_bullet_alien_collisions()
-
-    def _check_bullet_alien_collisions(self):
-        """Respond to bullet-alien collisions."""
-        collisions = pygame.sprite.groupcollide(
-                self.bullets, self.aliens, True, True)
-
-        if not self.aliens:
-            # Destroy existing bullets and create new fleet.
-            self.bullets.empty()
-            self._create_fleet()
 
     def _update_aliens(self):
         """Check if the fleet is at an edge, then update positions."""
         self._check_fleet_edges()
         self.aliens.update()
-
-        # Look for alien-ship collisions.
-        if pygame.sprite.spritecollideany(self.ship, self.aliens):
-            self._ship_hit()
-
-        # Look for liens hitting the bottom of the screen.
-        self._check_aliens_bottom()
-
-    def _check_aliens_bottom(self):
-        """Check if any aliens have reached the bottom of the screen."""
-        for alien in self.aliens.sprites():
-            if alien.rect.bottom >= self.settings.screen_height:
-                # Treat this the same as if the ship got hit.
-                self._ship_hit()
-                break
-
-    def _ship_hit(self):
-        """Respond to the ship being hit by an alien."""
-        if self.stats.ships_left > 0:
-            # Decrement ships_left
-            self.stats.ships_left -= 1
-
-            # Get rid of any remaining bullets and aliens.
-            self.bullets.empty()
-            self.aliens.empty()
-
-            # Create a new fleet and center the ship.
-            self._create_fleet()
-            self.ship.center_ship()
-
-            # Pause
-            sleep(0.5)
-        else:
-            self.game_active = False
 
     def _create_fleet(self):
         """Create the fleet of aliens."""
@@ -170,6 +117,57 @@ class AlienInvasion:
         new_alien.rect.y = y_position
         self.aliens.add(new_alien)
 
+    def _update_raindrops(self):
+        """Check if droplet is at the bottom, remove, then update."""
+        for droplet in self.raindrops.sprites().copy():
+            if droplet.check_bottom():
+                at_bottom = True
+                self.raindrops.remove(droplet)
+        
+        # Check if there's room for new row.
+        # Get highest droplet. Start by assigning lowest one.
+        highest = self.raindrops.sprites()[-1]
+        for droplet in self.raindrops.sprites():
+            # Loop through the droplets, find highest one.
+            if droplet.y < highest.y:
+                highest = droplet
+        
+        # If there is room for a new row, add it.
+        if highest.y > highest.rect.height * 2:
+            self._create_raindrops_row(0, 0)
+        # Update raindrops.
+        self.raindrops.update()
+
+    def _create_raindrops(self):
+        # Create a droplet and keep adding until there's no room left.
+        droplet = Raindrop(self)
+        droplet_width, droplet_height = droplet.rect.size
+        
+        current_x, current_y = 0, 0
+        while current_y < self.settings.screen_height:
+            # Create a row of raindrops
+            self._create_raindrops_row(current_x, current_y)
+
+            # Finished a row; reset x value, increment y value.
+            current_x = 0
+            current_y += 2 * droplet_height
+            
+    def _create_raindrops_row(self, x_position, y_position):
+        """Create a row of raindrops."""
+        droplet = Raindrop(self)
+        droplet_width, droplet_height = droplet.rect.size
+        while x_position < self.settings.screen_width:
+                self._create_droplet(x_position, y_position)
+                x_position += 2 * droplet_width
+
+    def _create_droplet(self, x_position, y_position):
+        """Create a raindrop and add it to the screen."""
+        new_droplet = Raindrop(self)
+        new_droplet.y = y_position
+        new_droplet.rect.x = x_position
+        new_droplet.rect.y = y_position
+        self.raindrops.add(new_droplet)
+
     def _check_fleet_edges(self):
         """Respond appropriately if any aliens have reached an edge."""
         for alien in self.aliens.sprites():
@@ -187,6 +185,7 @@ class AlienInvasion:
     def _update_screen(self):
         """Update images on the screen, and flip to the new screen."""
         self.screen.fill(self.settings.bg_color)
+        self.raindrops.draw(self.screen)
         for bullet in self.bullets.sprites():
                 bullet.draw_bullet()
         self.ship.blitme()
