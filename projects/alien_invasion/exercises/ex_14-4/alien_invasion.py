@@ -40,6 +40,11 @@ class AlienInvasion:
         # Make the play button
         self.play_button = Button(self, "Play")
 
+        # Make the difficulty buttons
+        #   (I wanted to try doing it without changing the class.)
+        self._build_difficulty_buttons()
+
+
     def run_game(self):
         """Start the main loop of the game."""
         while True:
@@ -65,6 +70,7 @@ class AlienInvasion:
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 mouse_pos = pygame.mouse.get_pos()
                 self._check_play_button(mouse_pos)
+                self._check_difficulty_buttons(mouse_pos)
 
     def _check_play_button(self, mouse_pos):
         """Start a new game when the player clicks Play."""
@@ -85,6 +91,24 @@ class AlienInvasion:
             # Hide the mouse cursor.
             pygame.mouse.set_visible(False)
             self.game_active = True
+
+    def _check_difficulty_buttons(self, mouse_pos):
+        """Check if the user changed the difficulty."""
+        # Do nothing if the game is running.
+        if self.game_active:
+            return None
+
+        # See which of the buttons were clicked.
+        difficulty = None
+        for key, button in self.difficulty_buttons.items():
+            if button.rect.collidepoint(mouse_pos):
+                difficulty = key
+                break
+
+        # If we chose a difficulty, change settings.
+        if difficulty:
+            self.settings.difficulty = difficulty
+            self.settings.initialize_dynamic_settings()
     
     def _check_keydown_events(self, event):
         """Respond to keypresses."""
@@ -103,6 +127,30 @@ class AlienInvasion:
             self.ship.moving_right = False
         elif event.key == pygame.K_LEFT:
             self.ship.moving_left = False
+
+    def _build_difficulty_buttons(self):
+        """Build the difficulty buttons."""
+        self.difficulty_buttons = {
+                'easy': Button(self, "Easy"),
+                'medium': Button(self, "Medium"),
+                'hard': Button(self, "Hard"),
+                }
+
+        ez = self.difficulty_buttons['easy']
+        med = self.difficulty_buttons['medium']
+        hard = self.difficulty_buttons['hard']
+
+        ez.rect.top = self.play_button.rect.bottom + 10
+        ez.rect.right = self.play_button.rect.left - 10
+        ez._prep_msg("Easy")
+
+        med.rect.left = ez.rect.right + 10
+        med.rect.y = ez.rect.y
+        med._prep_msg("Medium")
+
+        hard.rect.left = med.rect.right + 10
+        hard.rect.y = med.rect.y
+        hard._prep_msg("Hard")
 
     def _fire_bullet(self):
         """Create a new bullet and add it to the bullets group."""
@@ -224,6 +272,11 @@ class AlienInvasion:
         # Draw the play button if the game is inactive.
         if not self.game_active:
             self.play_button.draw_button()
+
+        # Draw the difficulty buttons if the game is inactive
+        if not self.game_active:
+            for button in self.difficulty_buttons.values():
+                button.draw_button()
 
         pygame.display.flip()
 
