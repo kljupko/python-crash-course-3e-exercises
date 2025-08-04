@@ -8,6 +8,9 @@ class Settings:
         self.screen_height = 800
         self.bg_color = (230, 230, 230)
 
+        # I/O settings
+        self.score_path = "data/score.json"
+
         # Ship settings
         self.ship_limit = 3
 
