@@ -1,0 +1,12 @@
+Music:
+	Evil by BLACK BOX
+	downloaded from: https://pixabay.com/music/upbeat-black-box-evil-111805/
+	quality and file size reduced via Audacity
+
+Effects:
+	laser shot
+	Attribution: K.L.Jonasson, Winnipeg, Canada. Triki Minut Interactive www.trikiminut.com
+	downloaded from: https://opengameart.org/content/sci-fi-laser-fire-sfx
+	
+	explosion
+	downloaded from: https://opengameart.org/content/explosion-0
