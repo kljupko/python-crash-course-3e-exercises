@@ -1,0 +1,1021 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1754915407000,
+        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson",
+        "title": "USGS Significant Earthquakes, Past Month",
+        "status": 200,
+        "api": "1.14.1",
+        "count": 25
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 6.1,
+                "place": "10 km SSW of Bigadi\u00e7, Turkey",
+                "time": 1754844827318,
+                "updated": 1754914085983,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qznb",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qznb.geojson",
+                "felt": 201,
+                "cdi": 8.6,
+                "mmi": 8.079,
+                "alert": "yellow",
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 823,
+                "net": "us",
+                "code": "6000qznb",
+                "ids": ",us6000qznb,",
+                "sources": ",us,",
+                "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 92,
+                "dmin": 0.894,
+                "rms": 0.79,
+                "gap": 24,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 6.1 - 10 km SSW of Bigadi\u00e7, Turkey"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.0694,
+                    39.3121,
+                    10
+                ]
+            },
+            "id": "us6000qznb"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.48,
+                "place": "6 km NW of Rialto, CA",
+                "time": 1754438077030,
+                "updated": 1754803076173,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41254152",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41254152.geojson",
+                "felt": 1125,
+                "cdi": 4.2,
+                "mmi": 3.535,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 606,
+                "net": "ci",
+                "code": "41254152",
+                "ids": ",ci41254152,us6000qyfh,",
+                "sources": ",ci,us,",
+                "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+                "nst": 160,
+                "dmin": 0.04825,
+                "rms": 0.2,
+                "gap": 15,
+                "magType": "mw",
+                "type": "earthquake",
+                "title": "M 3.5 - 6 km NW of Rialto, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.4141667,
+                    34.1455,
+                    6.66
+                ]
+            },
+            "id": "ci41254152"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.7,
+                "place": "2 km SW of Hillsdale, New Jersey",
+                "time": 1754410317181,
+                "updated": 1754869391710,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qycw",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qycw.geojson",
+                "felt": 3543,
+                "cdi": 5,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 612,
+                "net": "us",
+                "code": "6000qycw",
+                "ids": ",us6000qycw,",
+                "sources": ",us,",
+                "types": ",dyfi,origin,phase-data,",
+                "nst": 37,
+                "dmin": 0.12,
+                "rms": 0.38,
+                "gap": 68,
+                "magType": "mb_lg",
+                "type": "earthquake",
+                "title": "M 2.7 - 2 km SW of Hillsdale, New Jersey"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.0645,
+                    40.989,
+                    12.438
+                ]
+            },
+            "id": "us6000qycw"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 5.7,
+                "place": "38 km SE of Boca de Yuma, Dominican Republic",
+                "time": 1754385831280,
+                "updated": 1754894885288,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025217000",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025217000.geojson",
+                "felt": 482,
+                "cdi": 5,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 741,
+                "net": "pr",
+                "code": "2025217000",
+                "ids": ",pt25217001,us6000qy7q,pr2025217000,",
+                "sources": ",pt,us,pr,",
+                "types": ",dyfi,origin,phase-data,",
+                "nst": 29,
+                "dmin": 0.3523,
+                "rms": 0.46,
+                "gap": 184,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 5.7 - 38 km SE of Boca de Yuma, Dominican Republic"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -68.3226,
+                    18.1665,
+                    168
+                ]
+            },
+            "id": "pr2025217000"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 6.8,
+                "place": "118 km E of Severo-Kuril\u2019sk, Russia",
+                "time": 1754199475562,
+                "updated": 1754287547377,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qxt4",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qxt4.geojson",
+                "felt": 6,
+                "cdi": 6.5,
+                "mmi": 7.007,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 1,
+                "sig": 715,
+                "net": "us",
+                "code": "6000qxt4",
+                "ids": ",us6000qxt4,pt25215001,at00t0ekz8,",
+                "sources": ",us,pt,at,",
+                "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 106,
+                "dmin": 2.503,
+                "rms": 0.96,
+                "gap": 44,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 6.8 - 118 km E of Severo-Kuril\u2019sk, Russia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    157.7988,
+                    50.5804,
+                    35
+                ]
+            },
+            "id": "us6000qxt4"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 6.4,
+                "place": "Pacific-Antarctic Ridge",
+                "time": 1754197030588,
+                "updated": 1754327743040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qxsv",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qxsv.geojson",
+                "felt": 1,
+                "cdi": 7.8,
+                "mmi": 0,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 631,
+                "net": "us",
+                "code": "6000qxsv",
+                "ids": ",us6000qxsv,",
+                "sources": ",us,",
+                "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 55,
+                "dmin": 30.39,
+                "rms": 0.85,
+                "gap": 41,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 6.4 - Pacific-Antarctic Ridge"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -128.5742,
+                    -55.2484,
+                    10
+                ]
+            },
+            "id": "us6000qxsv"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3,
+                "place": "0 km NE of Hasbrouck Heights, New Jersey",
+                "time": 1754187532441,
+                "updated": 1754899408652,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qxsb",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qxsb.geojson",
+                "felt": 11121,
+                "cdi": 4.1,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 600,
+                "net": "us",
+                "code": "6000qxsb",
+                "ids": ",us6000qxsb,",
+                "sources": ",us,",
+                "types": ",dyfi,general-text,origin,phase-data,significance,",
+                "nst": 30,
+                "dmin": 0.142,
+                "rms": 0.39,
+                "gap": 113,
+                "magType": "mb_lg",
+                "type": "earthquake",
+                "title": "M 3.0 - 0 km NE of Hasbrouck Heights, New Jersey"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.0727,
+                    40.8648,
+                    10
+                ]
+            },
+            "id": "us6000qxsb"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 4.34,
+                "place": "6 km NW of Rialto, CA",
+                "time": 1753979544200,
+                "updated": 1754844159029,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41249496",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41249496.geojson",
+                "felt": 8296,
+                "cdi": 4.2,
+                "mmi": 4.481,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 710,
+                "net": "ci",
+                "code": "41249496",
+                "ids": ",ew1753979540,ci41249496,us6000qwzb,",
+                "sources": ",ew,ci,us,",
+                "types": ",dyfi,focal-mechanism,losspager,moment-tensor,nearby-cities,oaf,origin,phase-data,scitech-link,shake-alert,shakemap,",
+                "nst": 159,
+                "dmin": 0.0458,
+                "rms": 0.23,
+                "gap": 16,
+                "magType": "mw",
+                "type": "earthquake",
+                "title": "M 4.3 - 6 km NW of Rialto, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.4143333,
+                    34.148,
+                    5.26
+                ]
+            },
+            "id": "ci41249496"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 6.4,
+                "place": "143 km ESE of Severo-Kuril\u2019sk, Russia",
+                "time": 1753886861841,
+                "updated": 1753975517040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qwiq",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qwiq.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": 4.177,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 630,
+                "net": "us",
+                "code": "6000qwiq",
+                "ids": ",us6000qwiq,",
+                "sources": ",us,",
+                "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 217,
+                "dmin": 3.08,
+                "rms": 1.48,
+                "gap": 35,
+                "magType": "mb",
+                "type": "earthquake",
+                "title": "M 6.4 - 143 km ESE of Severo-Kuril\u2019sk, Russia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    157.8336,
+                    49.99,
+                    10
+                ]
+            },
+            "id": "us6000qwiq"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 6.9,
+                "place": "133 km SE of Petropavlovsk-Kamchatsky, Russia",
+                "time": 1753834197929,
+                "updated": 1754687464451,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qw6q",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qw6q.geojson",
+                "felt": 5,
+                "cdi": 6.6,
+                "mmi": 5.159,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 736,
+                "net": "us",
+                "code": "6000qw6q",
+                "ids": ",us6000qw6q,",
+                "sources": ",us,",
+                "types": ",dyfi,ground-failure,losspager,origin,phase-data,shakemap,",
+                "nst": 73,
+                "dmin": 1.158,
+                "rms": 0.74,
+                "gap": 67,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 6.9 - 133 km SE of Petropavlovsk-Kamchatsky, Russia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    159.9138,
+                    52.1605,
+                    25.342
+                ]
+            },
+            "id": "us6000qw6q"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 8.8,
+                "place": "2025 Kamchatka Peninsula, Russia Earthquake",
+                "time": 1753831492625,
+                "updated": 1754863660776,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qw60",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qw60.geojson",
+                "felt": 98,
+                "cdi": 9.1,
+                "mmi": 8.937,
+                "alert": "red",
+                "status": "reviewed",
+                "tsunami": 1,
+                "sig": 2089,
+                "net": "us",
+                "code": "6000qw60",
+                "ids": ",at00t06p1k,us6000qw60,pt25210002,",
+                "sources": ",at,us,pt,",
+                "types": ",dyfi,earthquake-name,finite-fault,general-link,general-text,ground-failure,impact-link,losspager,moment-tensor,oaf,origin,phase-data,shakemap,",
+                "nst": 249,
+                "dmin": 1.139,
+                "rms": 0.95,
+                "gap": 31,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 8.8 - 2025 Kamchatka Peninsula, Russia Earthquake"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    160.3244,
+                    52.5116,
+                    35
+                ]
+            },
+            "id": "us6000qw60"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 5.7,
+                "place": "7 km SSE of Comapa, Guatemala",
+                "time": 1753824323928,
+                "updated": 1753997719620,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qw59",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qw59.geojson",
+                "felt": 12,
+                "cdi": 5.4,
+                "mmi": 6.895,
+                "alert": "yellow",
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 656,
+                "net": "us",
+                "code": "6000qw59",
+                "ids": ",us6000qw59,",
+                "sources": ",us,",
+                "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 124,
+                "dmin": 0.182,
+                "rms": 0.86,
+                "gap": 38,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 5.7 - 7 km SSE of Comapa, Guatemala"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.8827,
+                    14.0546,
+                    10
+                ]
+            },
+            "id": "us6000qw59"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 6.6,
+                "place": "south of the Fiji Islands",
+                "time": 1753811621317,
+                "updated": 1753899395956,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qw1a",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qw1a.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": 2.299,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 1,
+                "sig": 670,
+                "net": "us",
+                "code": "6000qw1a",
+                "ids": ",us6000qw1a,pt25210000,at00t069pg,",
+                "sources": ",us,pt,at,",
+                "types": ",ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 97,
+                "dmin": 5.625,
+                "rms": 0.92,
+                "gap": 24,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 6.6 - south of the Fiji Islands"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    178.8239,
+                    -23.3521,
+                    553
+                ]
+            },
+            "id": "us6000qw1a"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 7,
+                "place": "Macquarie Island region",
+                "time": 1753740634742,
+                "updated": 1754868765082,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvsf",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qvsf.geojson",
+                "felt": 2,
+                "cdi": 2,
+                "mmi": 3.751,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 1,
+                "sig": 754,
+                "net": "us",
+                "code": "6000qvsf",
+                "ids": ",us6000qvsf,pt25209001,at00t04qxl,",
+                "sources": ",us,pt,at,",
+                "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 128,
+                "dmin": 3.329,
+                "rms": 0.83,
+                "gap": 21,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 7.0 - Macquarie Island region"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    156.9998,
+                    -57.6372,
+                    31
+                ]
+            },
+            "id": "us6000qvsf"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 6.5,
+                "place": "258 km WNW of Sabang, Indonesia",
+                "time": 1753728108740,
+                "updated": 1753896380009,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvpp",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qvpp.geojson",
+                "felt": 24,
+                "cdi": 3.4,
+                "mmi": 5.083,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 658,
+                "net": "us",
+                "code": "6000qvpp",
+                "ids": ",us6000qvpp,",
+                "sources": ",us,",
+                "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 100,
+                "dmin": 4.075,
+                "rms": 0.78,
+                "gap": 62,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 6.5 - 258 km WNW of Sabang, Indonesia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    93.1229,
+                    6.6995,
+                    10
+                ]
+            },
+            "id": "us6000qvpp"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 6.6,
+                "place": "176 km SSE of Mata-Utu, Wallis and Futuna",
+                "time": 1753400276763,
+                "updated": 1753722808012,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000quy1",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000quy1.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": 3.583,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 1,
+                "sig": 670,
+                "net": "us",
+                "code": "6000quy1",
+                "ids": ",us6000quy1,pt25205003,at00szxgb7,",
+                "sources": ",us,pt,at,",
+                "types": ",ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 75,
+                "dmin": 3.921,
+                "rms": 0.98,
+                "gap": 55,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 6.6 - 176 km SSE of Mata-Utu, Wallis and Futuna"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -175.7204,
+                    -14.8149,
+                    314.19
+                ]
+            },
+            "id": "us6000quy1"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 6.3,
+                "place": "109 km W of Gorontalo, Indonesia",
+                "time": 1753303844062,
+                "updated": 1753391863289,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qugg",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qugg.geojson",
+                "felt": 5,
+                "cdi": 4.6,
+                "mmi": 4.582,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 613,
+                "net": "us",
+                "code": "6000qugg",
+                "ids": ",us6000qugg,",
+                "sources": ",us,",
+                "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 134,
+                "dmin": 1.463,
+                "rms": 0.98,
+                "gap": 20,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 6.3 - 109 km W of Gorontalo, Indonesia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.0857,
+                    0.4437,
+                    144.571
+                ]
+            },
+            "id": "us6000qugg"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 6.2,
+                "place": "97 km SSE of Sand Point, Alaska",
+                "time": 1753050479946,
+                "updated": 1754269189101,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qe51",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qe51.geojson",
+                "felt": 25,
+                "cdi": 5.4,
+                "mmi": 5.069,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 1,
+                "sig": 605,
+                "net": "us",
+                "code": "7000qe51",
+                "ids": ",at00szpyen,us7000qe51,ak02598saaqj,",
+                "sources": ",at,us,ak,",
+                "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 141,
+                "dmin": 0.291,
+                "rms": 0.82,
+                "gap": 36,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 6.2 - 97 km SSE of Sand Point, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -159.7898,
+                    54.565,
+                    40
+                ]
+            },
+            "id": "us7000qe51"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 6.6,
+                "place": "147 km E of Petropavlovsk-Kamchatsky, Russia",
+                "time": 1752996180264,
+                "updated": 1754227154114,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdz2",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdz2.geojson",
+                "felt": 1,
+                "cdi": 4.7,
+                "mmi": 5.039,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 671,
+                "net": "us",
+                "code": "7000qdz2",
+                "ids": ",us7000qdz2,",
+                "sources": ",us,",
+                "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 171,
+                "dmin": 1.306,
+                "rms": 0.78,
+                "gap": 71,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 6.6 - 147 km E of Petropavlovsk-Kamchatsky, Russia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    160.7934,
+                    52.8703,
+                    22.128
+                ]
+            },
+            "id": "us7000qdz2"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 6.6,
+                "place": "153 km ESE of Petropavlovsk-Kamchatsky, Russia",
+                "time": 1752995262573,
+                "updated": 1754220497203,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdyw",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdyw.geojson",
+                "felt": 1,
+                "cdi": 5.4,
+                "mmi": 4.804,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 671,
+                "net": "us",
+                "code": "7000qdyw",
+                "ids": ",us7000qdyw,",
+                "sources": ",us,",
+                "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 172,
+                "dmin": 1.363,
+                "rms": 0.78,
+                "gap": 75,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 6.6 - 153 km ESE of Petropavlovsk-Kamchatsky, Russia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    160.8332,
+                    52.6981,
+                    10
+                ]
+            },
+            "id": "us7000qdyw"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 7.4,
+                "place": "2025 Eastern Kamchatka, Russia Earthquake",
+                "time": 1752994144495,
+                "updated": 1754645814543,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdyl",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdyl.geojson",
+                "felt": 20,
+                "cdi": 7.4,
+                "mmi": 7.588,
+                "alert": "red",
+                "status": "reviewed",
+                "tsunami": 1,
+                "sig": 2015,
+                "net": "us",
+                "code": "7000qdyl",
+                "ids": ",at00szoqxu,us7000qdyl,pt25201001,",
+                "sources": ",at,us,pt,",
+                "types": ",dyfi,earthquake-name,finite-fault,general-text,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 170,
+                "dmin": 1.311,
+                "rms": 0.85,
+                "gap": 32,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 7.4 - 2025 Eastern Kamchatka, Russia Earthquake"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    160.7907,
+                    52.8271,
+                    34
+                ]
+            },
+            "id": "us7000qdyl"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 6.6,
+                "place": "134 km E of Petropavlovsk-Kamchatsky, Russia",
+                "time": 1752992897860,
+                "updated": 1754487361359,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdye",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdye.geojson",
+                "felt": 1,
+                "cdi": 3.8,
+                "mmi": 5.393,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 1,
+                "sig": 671,
+                "net": "us",
+                "code": "7000qdye",
+                "ids": ",us7000qdye,pt25201000,at00szopz9,",
+                "sources": ",us,pt,at,",
+                "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 161,
+                "dmin": 1.197,
+                "rms": 0.86,
+                "gap": 73,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 6.6 - 134 km E of Petropavlovsk-Kamchatsky, Russia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    160.6233,
+                    52.9286,
+                    23
+                ]
+            },
+            "id": "us7000qdye"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 5.4,
+                "place": "35 km ENE of Shwebo, Burma (Myanmar)",
+                "time": 1752831003817,
+                "updated": 1753082730040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qddu",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qddu.geojson",
+                "felt": 4,
+                "cdi": 4.3,
+                "mmi": 6.768,
+                "alert": "yellow",
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 652,
+                "net": "us",
+                "code": "7000qddu",
+                "ids": ",us7000qddu,",
+                "sources": ",us,",
+                "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 78,
+                "dmin": 1.792,
+                "rms": 0.84,
+                "gap": 59,
+                "magType": "mb",
+                "type": "earthquake",
+                "title": "M 5.4 - 35 km ENE of Shwebo, Burma (Myanmar)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    96.0157,
+                    22.6861,
+                    10
+                ]
+            },
+            "id": "us7000qddu"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 7.3,
+                "place": "2025 Sand Point, Alaska Earthquake",
+                "time": 1752698261671,
+                "updated": 1754858869675,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qd1y",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qd1y.geojson",
+                "felt": 191,
+                "cdi": 7.4,
+                "mmi": 6.694,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 1,
+                "sig": 961,
+                "net": "us",
+                "code": "7000qd1y",
+                "ids": ",at00sziems,us7000qd1y,pt25197050,ak025925029r,",
+                "sources": ",at,us,pt,ak,",
+                "types": ",dyfi,earthquake-name,finite-fault,general-text,ground-failure,impact-link,losspager,moment-tensor,oaf,origin,phase-data,shakemap,",
+                "nst": 177,
+                "dmin": 0.574,
+                "rms": 0.75,
+                "gap": 25,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 7.3 - 2025 Sand Point, Alaska Earthquake"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -160.4668,
+                    54.5664,
+                    38
+                ]
+            },
+            "id": "us7000qd1y"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 6.7,
+                "place": "181 km WSW of Tual, Indonesia",
+                "time": 1752472198931,
+                "updated": 1754581593924,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcik",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcik.geojson",
+                "felt": 50,
+                "cdi": 4.9,
+                "mmi": 5.694,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 1,
+                "sig": 715,
+                "net": "us",
+                "code": "7000qcik",
+                "ids": ",pt25195000,at00szdk79,us7000qcik,",
+                "sources": ",pt,at,us,",
+                "types": ",dyfi,ground-failure,impact-link,impact-text,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 149,
+                "dmin": 2.138,
+                "rms": 0.56,
+                "gap": 19,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 6.7 - 181 km WSW of Tual, Indonesia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    131.2223,
+                    -6.222,
+                    78.973
+                ]
+            },
+            "id": "us7000qcik"
+        }
+    ],
+    "bbox": [
+        -175.7204,
+        -57.6372,
+        5.26,
+        178.8239,
+        54.5664,
+        553
+    ]
+}
