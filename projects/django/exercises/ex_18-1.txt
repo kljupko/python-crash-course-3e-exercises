@@ -1,0 +1,3 @@
+Make a few projects to see what Django does.
+
+Done.

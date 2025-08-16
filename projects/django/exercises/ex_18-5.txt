@@ -1,0 +1,4 @@
+Make a meal planner project, a meal planner app,
+and a simple home page for it.
+
+Ok. Done.
