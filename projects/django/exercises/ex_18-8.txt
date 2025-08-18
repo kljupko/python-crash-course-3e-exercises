@@ -1,0 +1,4 @@
+Add a page to the Pizzeria that shows available pizzas.
+Have the names link to pages displaying the pizza's toppings.
+
+Ok.
