@@ -1,0 +1,15 @@
+{% extends 'blogs/base.html' %}
+
+{% block content %}
+    <h2>{{ post.title }}</h2>
+    <small>
+        Posted in
+        <a href="{% url 'blogs:blog' blog.id %}">{{ blog.name }}</a>
+    </small>
+    <p>{{ post.content }}</p>
+    <p>
+        <a href="{% url 'blogs:edit_post' post.id %}">
+            Edit post
+        </a>
+    </p>
+{% endblock content %}

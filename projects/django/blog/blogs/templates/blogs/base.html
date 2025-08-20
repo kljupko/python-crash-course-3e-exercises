@@ -1,15 +1,19 @@
+<h1>My Blog</h1>
+
+<p>Welcome to the blog site.</p>
+
 <p>
-    <a href="{% url 'learning_logs:index' %}">Learning Log</a> - 
-    <a href="{% url 'learning_logs:topics' %}">Topics</a> -
+    <a href="{% url 'blogs:index' %}">Latest Posts</a> - 
+    <a href="{% url 'blogs:blogs' %}">Blogs</a> -
     {% if user.is_authenticated %}
-        Hello, {{ user.username}}
+        Hello, {{ user.username }}
     {% else %}
         <a href="{% url 'accounts:register' %}">Register</a> -
         <a href="{% url 'accounts:login' %}">Log in</a>
     {% endif %}
 
     {% if user.is_authenticated %}
-        <hr />
+        <hr>
         <form action="{% url 'accounts:logout' %}" method="post">
             {% csrf_token %}
             <button name="submit">Log out</button>
