@@ -143,6 +143,11 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+ll_env/
+blog_env/
+mp_env/
+pp_env/
+
 
 # Spyder project settings
 .spyderproject
