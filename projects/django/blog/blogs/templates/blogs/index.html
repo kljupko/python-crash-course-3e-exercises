@@ -1,16 +1,24 @@
 {% extends 'blogs/base.html' %}
 
 {% block content %}
-    <p>Latest posts:</p>
-    <ul>
-        {% for post in posts %}
-            <li>
-                <a href="{% url 'blogs:post' post.id %}">
-                    {{ post.title }}
-                </a>
-            </li>
-        {% empty %}
-            <li>No posts yet.</li>
-        {% endfor %}
-    </ul>
+<div class="p-3 mb-4 bg-light border rounded-3">
+    <div class="container-fluid py-4">
+        <h1 class="display-3">Share your experience.</h1>
+        <p class="lead">Make your own Blog, and share your knowledge and
+            experience with the world.</p>
+        <a class="btn btn-primary btn-lg mt-1" href="{% url 'accounts:register' %}">Register &raquo;</a>
+    </div>
+</div>
+<h2>Latest Posts</h2>
+<ul class="list-group border-bottom pb-2 mb-4">
+    {% for post in posts %}
+    <li class="list-group-item border-0">
+        <a href="{% url 'blogs:post' post.id %}">
+            {{ post.title }}
+        </a>
+    </li>
+    {% empty %}
+        <li class="list-group-item border-0">No posts yet.</li>
+    {% endfor %}
+</ul>
 {% endblock content %}
