@@ -1,0 +1,10 @@
+Refusing to do final two exercises.
+
+The sections on Bootstrap and Platform.sh are not informative enough to teach working with UI or remote servers in general.
+Instead, they instruct the reader to follow along, while superficially explaining the code.
+This does not instill any broadly applicable knowledge. It simply shows the reader how to use Bootstrap and Platform.sh in these particular intsances.
+
+Aborting chapter.
+Will take separate courses on UI and server management when needed.
+
+Django project considered complete.
