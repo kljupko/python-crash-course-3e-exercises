@@ -143,7 +143,7 @@ if config.is_valid_platform():
         STATIC_ROOT = Path(config.appDir) / 'static'
     if config.projectEntropy:
         SECRET_KEY = config.projectEntropy
-    
+        
     if not config.in_build():
         db_settings = config.credentials('database')
         DATABASES = {
@@ -154,5 +154,5 @@ if config.is_valid_platform():
                 'PASSWORD': db_settings['password'],
                 'HOST': db_settings['host'],
                 'PORT': db_settings['port'],
-            }
+            },
         }
